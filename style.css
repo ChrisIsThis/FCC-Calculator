@@ -1,0 +1,68 @@
+body {
+  background-color: darkgray;
+}
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+.btn {
+  margin: 3px;
+  width: 45px;
+}
+h1 {
+  color: white;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+#main {
+  background-color: lightblue;
+  margin-top: 10px;
+  float: none;
+  margin: 0 auto;
+  width: 286px;
+  border-radius: 10px;
+  padding-top: 30px;
+  border: 2px solid gray;
+}
+#res-disp {
+  width: 90%;
+  background-color: lightgray;
+  float: none;
+  margin: 0 auto;
+  height: 65px;
+  border-radius: 7px;
+  border: 2px solid gray;
+}
+#result {
+  max-height: 35px;
+  min-height: 35px;
+  float: none;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-right: 10px;
+  text-align: right;
+  font-family: Orbitron;
+}
+#display {
+  max-height: 25px;
+  min-height: 25px;
+  float: none;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  text-align: right;
+  font-family: Orbitron;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#number-block {
+  float: none;
+  margin: 0 auto;
+  padding-left: 11%;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+#equal {
+  width: 96px;
+  font-size: 14pt;
+}

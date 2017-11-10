@@ -1,0 +1,56 @@
+<!doctype html>
+<head>
+  <title>JS Calculator</title>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+</head>
+<body>
+  <div id="title">
+    <h1 class="text-center">Raïe's Calculator</h1>
+  </div>
+  <div id="main" >
+    <div id=res-disp>
+      <div id="result">
+      </div>
+      <div id="display">
+        <p id="tracking"></p>
+      </div>
+    </div>
+    <div id="number-block">
+      <div class="row">
+        <button id="one" type="button" class="btn btn-secondary num">1</button>
+        <button id="two" type="button" class="btn btn-secondary num">2</button>
+        <button id="three" type="button" class="btn btn-secondary num">3</button>
+        <button id="minus"type="button" class="btn btn-info">-</button>
+        <button id="plus"type="button" class="btn btn-info">+</button>
+      </div>
+      <div class="row">
+        <button id="four" type="button" class="btn btn-secondary num">4</button>
+        <button id="five" type="button" class="btn btn-secondary num">5</button>
+        <button id="six" type="button" class="btn btn-secondary num">6</button>
+        <button id="multiply" type="button" class="btn btn-info">X</button>
+        <button id="divide" type="button" class="btn btn-info">/</button>
+      </div>
+      <div class="row">
+        <button id="seven" type="button" class="btn btn-secondary num">7</button>
+        <button id="eight" type="button" class="btn btn-secondary num">8</button>
+        <button id="nine" type="button" class="btn btn-secondary num">9</button>
+        <button id="clear"type="button" class="btn btn-danger">C</button>
+        <button id="CE" type="button" class="btn btn-warning">CE</button>
+      </div>
+      <div class="row">
+        <button id="nada"type="button" class="btn btn-secondary num">HAI</button>
+        <button id="zero" type="button" class="btn btn-secondary num">0</button>
+        <button id="decimal" type="button" class="btn btn-secondary">.</button>
+        <button id="equal" type="button" class="btn btn-success">=</button>
+      </div>
+    </div>
+
+
+  </div> <!--main -->
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script  src="calculator.js"></script>
+</body>
+</html>
