@@ -82,7 +82,7 @@ $("document").ready(function(){
     isResult = true;
   })
 
-  $('#clear').click(function(){
+  $('#AC').click(function(){
     clearAll();
   });
 
